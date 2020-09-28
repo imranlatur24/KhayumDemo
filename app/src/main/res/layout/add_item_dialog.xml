@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_gravity="end"
+            android:id="@+id/image_cancel_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_cancel"
+            android:contentDescription="@string/app_name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="@color/colorAccent"
+            android:text="@string/select_item"/>
+
+        <Spinner
+            android:id="@+id/edit_state_dia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:hint="@string/select_item"
+            android:background="@drawable/round_corner"
+            android:textColorHint="@color/colorPrimary"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="@color/colorAccent"
+            android:text="@string/jobestimate"/>
+
+        <EditText
+            android:id="@+id/edtJobEstimate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:inputType="number"
+            android:maxLength="10"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:hint="@string/jobestimate"
+            android:background="@drawable/round_corner"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="@color/colorAccent"
+            android:text="@string/jobfinalamt"/>
+
+        <EditText
+            android:id="@+id/edtjobfinalamt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="16dp"
+            android:inputType="number"
+            android:maxLength="10"
+            android:paddingRight="16dp"
+            android:hint="@string/jobfinalamt"
+            android:background="@drawable/round_corner"/>
+
+        <View
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+
+        <Button
+            android:id="@+id/btnAddBill"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:textColor="@color/colorWhite"
+            android:textAllCaps="false"
+            android:text="@string/submit"
+            android:textSize="@dimen/_14sdp"
+            android:background="@drawable/round_corner_red" />
+
+        <!--      <View
+                  android:layout_width="match_parent"
+                  android:layout_height="@dimen/_2sdp"
+                  android:layout_marginTop="16dp"
+                  android:layout_marginBottom="4dp"
+                  android:layout_marginLeft="16dp"
+                  android:layout_marginRight="16dp"
+                  android:background="@color/colorGery"/>
+
+              <com.grocery.view.MyTextView
+                  android:id="@+id/txtLoginGoBack"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:paddingTop="4dp"
+                  android:paddingBottom="16dp"
+                  android:paddingLeft="16dp"
+                  android:paddingRight="16dp"
+                  android:text="@string/mobile"/>-->
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

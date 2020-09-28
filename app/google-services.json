@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "227855603456",
+    "firebase_url": "https://swack-workshop.firebaseio.com",
+    "project_id": "swack-workshop",
+    "storage_bucket": "swack-workshop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227855603456:android:abf59b9ccc5eb5a3f445e5",
+        "android_client_info": {
+          "package_name": "com.swack.workshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227855603456-atjg3tkb3u37shcb30076hl378ndum94.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdsNI_aST3O5GCZAE4OCGi3PG-gwHukSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227855603456-atjg3tkb3u37shcb30076hl378ndum94.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
